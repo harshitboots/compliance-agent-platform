@@ -1,0 +1,15 @@
+{
+  "title": "Enterprise Compliance AI Agents Platform",
+  "slug": "compliance-ai-agents",
+  "description": "Multi-agent AI system for fraud detection and financial compliance built with Azure AI Foundry and Databricks.",
+  "thumbnail": "thumbnail.png",
+  "architecture": "architecture.png",
+  "github": "https://github.com/harshitboots/compliance-agent-platform",
+  "tech": [
+    "Azure AI Foundry",
+    "Databricks",
+    "Microsoft Agent Framework",
+    "Cosmos DB",
+    "OpenTelemetry"
+  ]
+}
