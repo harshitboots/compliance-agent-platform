@@ -1,15 +1,41 @@
 {
   "title": "Enterprise Compliance AI Agents Platform",
   "slug": "compliance-ai-agents",
-  "description": "Multi-agent AI system for fraud detection and financial compliance built with Azure AI Foundry and Databricks.",
+  "category": "AI Platform",
+  "status": "In Development",
+  "description": "Enterprise-grade multi-agent AI platform for financial fraud detection and regulatory compliance using Azure AI Foundry and Databricks Lakehouse architecture.",
+  "long_description": "This project demonstrates how enterprise organizations can automate financial compliance workflows using AI agents. The system uses Azure AI Foundry models to analyze transactions, detect fraud risks, generate compliance reports, and trigger fraud alerts. The platform integrates Databricks Lakehouse for data ingestion and analysis while Azure AI Foundry powers the decision-making agents.",
+  
   "thumbnail": "thumbnail.png",
   "architecture": "architecture.png",
+
   "github": "https://github.com/harshitboots/compliance-agent-platform",
+
+  "ai_models": [
+    "GPT-4.1-mini (Azure AI Foundry)"
+  ],
+
+  "agents": [
+    "Customer Data Agent",
+    "Risk Analyzer Agent",
+    "Compliance Report Agent",
+    "Fraud Alert Agent"
+  ],
+
   "tech": [
     "Azure AI Foundry",
-    "Databricks",
     "Microsoft Agent Framework",
-    "Cosmos DB",
-    "OpenTelemetry"
+    "Databricks Lakehouse",
+    "Azure Cosmos DB",
+    "OpenTelemetry",
+    "Python"
+  ],
+
+  "features": [
+    "AI-powered fraud risk analysis",
+    "Automated compliance reporting",
+    "Multi-agent orchestration",
+    "Real-time fraud alert generation",
+    "Enterprise observability with OpenTelemetry"
   ]
 }
