@@ -1,3 +1,5 @@
+![AI Fraud Analytics Platform](https://raw.githubusercontent.com/harshitboots/compliance-agent-platform/main/docs/images/thumbnail.png)
+
 # AI-Powered Fraud Analytics Platform
 
 ### Built with Azure AI Foundry & Databricks Lakehouse
