@@ -2,12 +2,14 @@ import streamlit as st
 from openai import AzureOpenAI
 from databricks import sql
 import os
+from dotenv import load_dotenv
 
 # ---------- Azure OpenAI Client ----------
+load_dotenv()
 
 client = AzureOpenAI(
     api_key=os.getenv("AZURE_OPENAI_KEY"),
-    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),,
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
     api_version=os.getenv("AZURE_OPENAI_API_VERSION")
 )
 

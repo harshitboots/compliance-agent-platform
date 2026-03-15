@@ -3,13 +3,25 @@
   "slug": "compliance-ai-agents",
   "category": "AI Platform",
   "status": "In Development",
-  "description": "Enterprise-grade multi-agent AI platform for financial fraud detection and regulatory compliance using Azure AI Foundry and Databricks Lakehouse architecture.",
-  "long_description": "This project demonstrates how enterprise organizations can automate financial compliance workflows using AI agents. The system uses Azure AI Foundry models to analyze transactions, detect fraud risks, generate compliance reports, and trigger fraud alerts. The platform integrates Databricks Lakehouse for data ingestion and analysis while Azure AI Foundry powers the decision-making agents.",
-  
-  "thumbnail": "thumbnail.png",
-  "architecture": "architecture.png",
+
+  "description": "Enterprise-grade multi-agent AI platform for financial fraud detection and regulatory compliance built using Azure AI Foundry and Databricks Lakehouse.",
+
+  "long_description": "This project demonstrates how enterprise organizations can automate financial compliance workflows using AI agents. The platform analyzes financial transactions, detects fraud risks, generates compliance reports, and triggers fraud alerts. Azure AI Foundry powers the decision-making agents while Databricks Lakehouse provides scalable data processing and analytics.",
 
   "github": "https://github.com/harshitboots/compliance-agent-platform",
+
+  "thumbnail": "/images/projects/compliance-ai-agents/thumbnail.png",
+
+  "architecture": {
+    "image": "/images/projects/compliance-ai-agents/architecture.png",
+    "description": "Architecture showing multi-agent orchestration powered by Azure AI Foundry with Databricks Lakehouse for fraud data analysis."
+  },
+
+  "screenshots": [
+    "/images/projects/compliance-ai-agents/fraud-ui.png",
+    "/images/projects/compliance-ai-agents/fraud-analysis.png",
+    "/images/projects/compliance-ai-agents/investigation-report.png"
+  ],
 
   "ai_models": [
     "GPT-4.1-mini (Azure AI Foundry)"
@@ -28,7 +40,8 @@
     "Databricks Lakehouse",
     "Azure Cosmos DB",
     "OpenTelemetry",
-    "Python"
+    "Python",
+    "Streamlit"
   ],
 
   "features": [
@@ -37,5 +50,10 @@
     "Multi-agent orchestration",
     "Real-time fraud alert generation",
     "Enterprise observability with OpenTelemetry"
-  ]
+  ],
+
+  "demo": {
+    "available": false,
+    "description": "Interactive AI agent demo will be available soon."
+  }
 }
