@@ -51,4 +51,3 @@ Python
 =======
 # compliance-agent-platform
 Multi-agent AI system for automated fraud detection and regulatory compliance built using Azure AI Foundry, Databricks, and Microsoft Agent Framework.
->>>>>>> d2e952ebf74e081db3832fb9a0eb0ee04e43e3e1
